@@ -31,6 +31,30 @@ const skillsSection = {
 
   softwareSkills: [
     {
+      skillName: "java/kotlin",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "js/ts",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -43,24 +67,16 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "git vcs",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "sql-database",
@@ -71,17 +87,9 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fas fa-java"
-    }
   ]
 };
 
@@ -89,8 +97,8 @@ const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
 
-  githubConvertedToken: "MDEzMWI5NjY1ZDgxZjM3YmEwMWE3YjM5ZDMzNGVhZGU1ZGMyNDNmYg==",
-  githubUserName: "timBastiaans"
+  githubConvertedToken: "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",
+  githubUserName: "TimBastiaans"
 };
 
 const bigProjects = {
@@ -105,7 +113,11 @@ const bigProjects = {
     {
       image: "src/assests/images/quintorBlockchain.jpeg",
       link: "https://quintor.nl/"
-    }
+    },
+    {
+      image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/BeerDistrubutionGame.png",
+      link: "https://www.han.nl/"
+    },
   ]
 };
 
