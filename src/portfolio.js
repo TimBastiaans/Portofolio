@@ -1,33 +1,54 @@
-/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Portfolio */
 
-const greeting = {
-  /* Your Summary And Greeting Section */
-  title: "Hi all 👋 I'm Tim Bastiaans",
-  subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
-  resumeLink: "https://drive.google.com/file/d/1xafz49iLc2QuewWvWmnYWPkWGHmDLCUE/view?usp=sharing"
+// To change portfolio colors globally go to the  _globalColor.scss file
+
+// Summary And Greeting Section
+
+import emoji from "react-easy-emoji";
+
+const illustration = {
+  animated: true // set to false to use static SVG
 };
 
+const greeting = {
+  username: "Tim Bastiaans",
+  title: "Hi all I'm Tim Bastiaans",
+  subTitle: emoji(
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+  ),
+  resumeLink:
+    "https://drive.google.com/file/d/1wZchZ_93igJR_xC_hjd6kYwh3sKHk841/view?usp=sharing",
+  displayGreeting: true // Set false to hide this section, defaults to true
+};
+
+// Social Media Links
+
 const socialMediaLinks = {
-  /* Your Social Media Link */
   github: "https://github.com/timBastiaans",
   linkedin: "https://www.linkedin.com/in/tim-b-35ba07a5/",
   gmail: "Tim_Bastiaans@hotmail.nl",
-  gitlab: "https://gitlab.com/timBastiaans"
+  gitlab: "https://gitlab.com/timBastiaans",
+  stackoverflow: "https://stackoverflow.com/story/timbastiaans",
+  display: true // Set true to display this section, defaults to false
 };
 
+// Skills Section
+
 const skillsSection = {
-  /* Your Skills Section  */
   title: "What I do",
   subTitle: "TRYING TO BE A CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications or backends",
-    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as Firebase / and getting to know AWS"
+    emoji(
+        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications or backends"
+    ),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji(
+        "⚡ Integration of third party services such as Firebase / and getting to know AWS"
+    )
   ],
 
-  /* Make Sure You include correct Font Awesome Classname to view your icon */
-  /* https://fontawesome.com/icons?d=gallery */
+  /* Make Sure to include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -90,130 +111,256 @@ const skillsSection = {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
-const openSource = {
-  /* Your Open Source Section to View Your Github Pinned Projects */
-  /* To know how to get github key look at readme.md */
+// Education Section
 
-  githubConvertedToken: "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",
-  githubUserName: "TimBastiaans"
-};
-
-const bigProjects = {
-  /* Some Big Projects You have worked with your company */
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
-  projects: [
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
     {
-      image: "src/assests/images/greenOffice.jpeg",
-      link: "https://www.ru.nl/duurzaamheid/partners/hogeschool-arnhem-nijmegen/"
-    },
-    {
-      image: "src/assests/images/quintorBlockchain.jpeg",
-      link: "https://quintor.nl/"
-    },
-    {
-      image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/BeerDistrubutionGame.png",
-      link: "https://www.han.nl/"
-    },
-  ]
-};
-
-
-
-const achievementSection = {
-  /* Your Achievement Section Include Your Certification Talks and More */
-
-  title: "Achievements And Certifications 🏆 ",
-  subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
-
-  achivementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      description: "First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 diffrent countries",
-      image:
-        "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
-      footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+      schoolName: "HAN University of Applied Sciences",
+      logo: require("./assets/images/HAN-logo.png"),
+      subHeader: "HBO Informatica software developer",
+      duration: "September 2017 - April 2021",
+      desc: "propaedeutic certificate obtained in the first year",
+      descBullets: [
+        "UML & Scrum",
+        "PHP, HTML & CSS",
+        "Java / Kotlin",
+        "Javascript / Typescript",
+        "NoSQL & T-SQL",
+        "Firebase, Ionic, Swift, Vue & Angular",
+        "Microservices, SOLID principles, GRASP & Gang of Four (GoF) design patterns",
+        "automated testing, ISO 42010/25010, Twin Peaks-model, 4+1 architectural view model,",
+        " clean code with the refactoring guide by Martin Fowler."
       ]
     },
     {
-      title: "Google Assistant Action",
-      description: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      description: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
+      schoolName: "ROC Nijmegen",
+      logo: require("./assets/images/ROC-logo.jpg"),
+      subHeader: "Secondary vocational education system operator / network management",
+      duration: "September 2014 - April 2017",
+      desc: "Schoolprogram subjects:",
+      descBullets: ["Windows Networks" ,"Cisco CCNA" ,"Open Source" ,"Databases" ,"Networks" ,"IT Security" ,"Virtualization" ,"Java", "SQL"]
     }
   ]
 };
 
-const blogSection = {
-  /* Blogs Section */
+// Your top 3 proficient stacks/tech experience
 
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
+const techStack = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Social",
+      progressPercentage: "75%"
+    },
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
+// Work experience section
+
+const workExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Graduation internship software developer",
+      company: "VTS",
+      companylogo: require("./assets/images/VTS-logo.png"),
+      date: "October 2020 – April 2021",
+      desc: "Microsoft dynamics 365 business central development in Microsoft AL",
+      descBullets: [
+        "AI Custom Vision quality check for transport shipping documents.",
+        "Automated testing for Dynamics 365 Business Central projects.",
+        "Calculated duration of all expected shipping trips.",
+        "Overview page with a dynamic and insightful set of tools\n" +
+        "to determine the in- and outgoing temperature of the\n" +
+        "controlled cargo trucks.",
+      ]
+    },
+    {
+      role: "Back-End Developer",
+      company: "Brthrs",
+      companylogo: require("./assets/images/BRTHRS-logo.png"),
+      date: "February 2020 – July 2020",
+      desc: "Working within a development team and helping with\n" +
+        "developing, testing and deploying various applications\n" +
+        "like the Silent Disco web platform with integrated\n" +
+        "streaming services."
+    },
+    {
+      role: "IT helpdesk",
+      company: "Hyster-Yale",
+      companylogo: require("./assets/images/HYSTER-YALE-logo.png"),
+      date: "February 2016 – December 2018",
+      desc: "Technical troubleshooting, system upgrades & optimization, security, backup & recovery solutions:",
+      descBullets: ["First and second line helpdesk support in a > 6,800 fte\n" +
+      "worldwide company." ,"Virus detection, removal & prevention."],
+    }
+  ]
+};
+
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
+const openSource = {
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  projects: [
+    {
+      image: require("./assets/images/beerDistrubutionGame.png"),
+      projectName: "Beer Distribution Game",
+      projectDesc: "Worked as the project leader of a 25-member team on implementing a better version of the \"Beer Distribution Game\" that will solve the limitations of previous versions.",
+      footerLink: [
+        {
+          name: "Git-project",
+          url: "https://github.com/TimBastiaans/Beer-Distribution-Game"
+        },
+        {
+          name: "Game info",
+          url: "https://en.wikipedia.org/wiki/Beer_distribution_game"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bubble-trouble -logo.jpg"),
+      projectName: "Bubble Trouble in Unity",
+      projectDesc: "Two man project still in progress on the replication of the old Bubble Trouble Game",
+      footerLink: [
+        {
+          name: "Git-project",
+          url: "https://github.com/nymtesx/unitygame"
+        },
+        {
+          name: "The flash Browser game",
+          url: "https://spele.nl/bubble-trouble-1-spel/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Achievement Section
+// Include certificates, talks etc
+
+const achievementSection = {
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+
+  achievementsCards: [
+    {
+      title: "Amazon Web Services - Cloud Computing Services",
+      subtitle:
+        "Trying to get my AWS Certification",
+      image: require("./assets/images/AWS-Logo.jpg"),
+      footerLink: [
+        {
+          name: "Certification exams",
+          url: "https://aws.amazon.com/certification/"
+        }
+      ]
+    },
+
+    {
+      title: "CCNA ",
+      subtitle: "Completed Certifcation from the first three levels of the CCNA course",
+      image: require("./assets/images/CCNA-Routing-and-Switching-Certification.jpg"),
+      footerLink: [
+        {name: "Certification", url: ""},
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Blogs Section
+
+const blogSection = {
+  title: "Playground",
+  subtitle:
+    "With Love for Developing cool stuff, I love to share and show some of the coolest things I found on the web.",
 
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      image: "https://miro.medium.com/max/1280/1*o08b2PW-1PVs94riZuhNMA.png",
-      title: "Why REACT Is The Best?",
-      description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
+      title: "Why REACT is The Best?",
+      description:
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
+  subtitle: emoji(
+    "I LIKE TO SHARE MY LIMITED KNOWLEDGE"
+  ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
-      image:
-        "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
+      title: "Graduation internship Presentation For VTS",
+      subtitle: "The specialist in temperature-controlled pharmaceutical transport & warehousing",
+      slides_url: "https://drive.google.com/file/d/1o78MToqxEFMptxDtDQQmxXUBanl6w76b/view?usp=sharing",
+      event_url: "https://www.vts.nl/"
     }
-  ]
-};
-
-// Podcast Section
-const podcastSection = {
-  title: "Podcast 🎙️",
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: "Contact Me ☎️",
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+31-648543197",
-  email_address: "Tim_bastiaans@Hotmail.nl"
+  title: emoji("Contact Me ☎️"),
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+648543197",
+  email_address: "Tim_Bastiaans@hotmail.nl"
 };
 
-export { greeting, socialMediaLinks, skillsSection, openSource, achievementSection, bigProjects, talkSection, blogSection, podcastSection, contactInfo};
+export {
+  illustration,
+  greeting,
+  socialMediaLinks,
+  skillsSection,
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  contactInfo,
+};
