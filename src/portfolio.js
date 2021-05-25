@@ -134,8 +134,8 @@ const educationInfo = {
         "NoSQL & T-SQL",
         "Firebase, Ionic, Swift, Vue & Angular",
         "Microservices, SOLID principles, GRASP & Gang of Four (GoF) design patterns",
-        "automated testing, ISO 42010/25010, Twin Peaks-model, 4+1 architectural view model,",
-        " clean code with the refactoring guide by Martin Fowler."
+        "Automated testing, ISO 42010/25010, Twin Peaks-model, 4+1 architectural view model",
+        "Clean code with the refactoring guide by Martin Fowler."
       ]
     },
     {
@@ -325,7 +325,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "PRESENTATIONS",
   subtitle: emoji(
     "I LIKE TO SHARE MY LIMITED KNOWLEDGE"
   ),
