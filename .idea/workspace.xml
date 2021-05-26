@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="523ebe91-325f-4e33-8e29-87449ee1f0a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/email-addresses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/email-addresses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/filename-reserved-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/filename-reserved-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/filenamify-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/filenamify-url/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/filenamify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/filenamify/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/gh-pages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gh-pages/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/humanize-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/humanize-url/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-outer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-outer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-url-auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-url-auth/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/trim-repeated/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/trim-repeated/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +49,10 @@
       <option name="presentableId" value="Default" />
       <updated>1621885601312</updated>
       <workItem from="1621885602874" duration="12196000" />
-      <workItem from="1621933226641" duration="9582000" />
+      <workItem from="1621933226641" duration="11117000" />
+      <workItem from="1621975162105" duration="182000" />
+      <workItem from="1621980068926" duration="1875000" />
+      <workItem from="1622059290475" duration="690000" />
     </task>
     <servers />
   </component>
