@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30423f065e6a35b9ccf920280456e236",
+    "revision": "8c0f0b544c1eedc923539ce7b018e28f",
     "url": "/Portofolio/index.html"
   },
   {
-    "revision": "9bc792ea54302df30680",
+    "revision": "ab27d9e7e05353a60ffc",
     "url": "/Portofolio/static/css/3.ed673b97.chunk.css"
   },
   {
-    "revision": "84e4fae5c2161147a8f7",
+    "revision": "582db81ad30e3cbdc177",
     "url": "/Portofolio/static/css/4.0110b6a7.chunk.css"
   },
   {
-    "revision": "0746d3622d94de41b66e",
-    "url": "/Portofolio/static/css/main.c52d592a.chunk.css"
+    "revision": "88278d99ed74587b803a",
+    "url": "/Portofolio/static/css/main.c65afbf5.chunk.css"
   },
   {
     "revision": "b90634f6789c477f3948",
@@ -24,20 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portofolio/static/js/2.6f2ae8cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9bc792ea54302df30680",
-    "url": "/Portofolio/static/js/3.7e71581d.chunk.js"
+    "revision": "ab27d9e7e05353a60ffc",
+    "url": "/Portofolio/static/js/3.99a612ea.chunk.js"
   },
   {
-    "revision": "84e4fae5c2161147a8f7",
-    "url": "/Portofolio/static/js/4.8e938c31.chunk.js"
+    "revision": "582db81ad30e3cbdc177",
+    "url": "/Portofolio/static/js/4.f0e0e6f2.chunk.js"
   },
   {
-    "revision": "0746d3622d94de41b66e",
-    "url": "/Portofolio/static/js/main.5617ad0d.chunk.js"
+    "revision": "88278d99ed74587b803a",
+    "url": "/Portofolio/static/js/main.89f202e0.chunk.js"
   },
   {
-    "revision": "9e0b4bb4cd7299e4a2ee",
-    "url": "/Portofolio/static/js/runtime-main.9ecdd8a4.js"
+    "revision": "ac81ae74101cb4dba231",
+    "url": "/Portofolio/static/js/runtime-main.be150ca8.js"
   },
   {
     "revision": "f2a4602783889007136a88b7f6552a0f",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portofolio/static/media/CCNA-Routing-and-Switching-Certification.f5df85f0.jpg"
   },
   {
-    "revision": "afd6b23524b82947cdcb5cc298928e89",
-    "url": "/Portofolio/static/media/HAN-logo.afd6b235.png"
+    "revision": "5481dc2839c1d1e81cb4234415647335",
+    "url": "/Portofolio/static/media/HAN-logo.5481dc28.png"
   },
   {
     "revision": "7a6fd67d764cc3174202971c29cdaa9f",
@@ -72,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portofolio/static/media/VTS-logo.f361b605.png"
   },
   {
-    "revision": "3cab17473e12524e0dbb480b484b7a8a",
-    "url": "/Portofolio/static/media/beerDistrubutionGame.3cab1747.png"
+    "revision": "f08d7977e8f8612378bef7ed3a20b0bd",
+    "url": "/Portofolio/static/media/beerDistrubutionGame.f08d7977.png"
   },
   {
-    "revision": "7c66adb56c500d107a6cba0410303acd",
-    "url": "/Portofolio/static/media/bubble-trouble -logo.7c66adb5.jpg"
+    "revision": "27ffb994d6ad1e6876843ea71d930a9b",
+    "url": "/Portofolio/static/media/bubble-trouble-logo.27ffb994.jpg"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
