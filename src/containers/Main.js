@@ -7,7 +7,7 @@ import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
-import Blogs from "./blogs/Blogs";
+// import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Education from "./education/Education";
@@ -52,7 +52,7 @@ export default class Main extends Component {
           <Projects />
           <StartupProject />
           <Achievement />
-          <Blogs />
+          {/*<Blogs />*/}
           <Talks />
           <Profile />
           <Footer />

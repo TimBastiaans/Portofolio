@@ -3,16 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="523ebe91-325f-4e33-8e29-87449ee1f0a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/email-addresses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/email-addresses/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/filename-reserved-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/filename-reserved-regex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/filenamify-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/filenamify-url/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/filenamify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/filenamify/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gh-pages/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gh-pages/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/humanize-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/humanize-url/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/strip-outer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-outer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/strip-url-auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-url-auth/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/trim-repeated/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/trim-repeated/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/acorn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-preset-react-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-preset-react-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dns-packet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dns-packet/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dns-packet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dns-packet/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssri/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssri/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssri/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ssri/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ssri/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +59,9 @@
       <workItem from="1621933226641" duration="11117000" />
       <workItem from="1621975162105" duration="182000" />
       <workItem from="1621980068926" duration="1875000" />
-      <workItem from="1622059290475" duration="690000" />
+      <workItem from="1622059290475" duration="1081000" />
+      <workItem from="1622109142648" duration="1462000" />
+      <workItem from="1622110649448" duration="4650000" />
     </task>
     <servers />
   </component>
