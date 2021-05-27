@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Portofolio/static/css/main.c65afbf5.chunk.css",
-    "main.js": "/Portofolio/static/js/main.89f202e0.chunk.js",
-    "main.js.map": "/Portofolio/static/js/main.89f202e0.chunk.js.map",
-    "runtime-main.js": "/Portofolio/static/js/runtime-main.be150ca8.js",
-    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.be150ca8.js.map",
-    "static/js/2.6f2ae8cd.chunk.js": "/Portofolio/static/js/2.6f2ae8cd.chunk.js",
-    "static/js/2.6f2ae8cd.chunk.js.map": "/Portofolio/static/js/2.6f2ae8cd.chunk.js.map",
+    "main.js": "/Portofolio/static/js/main.f00c9ccc.chunk.js",
+    "main.js.map": "/Portofolio/static/js/main.f00c9ccc.chunk.js.map",
+    "runtime-main.js": "/Portofolio/static/js/runtime-main.fbca5773.js",
+    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.fbca5773.js.map",
+    "static/js/2.0156b088.chunk.js": "/Portofolio/static/js/2.0156b088.chunk.js",
+    "static/js/2.0156b088.chunk.js.map": "/Portofolio/static/js/2.0156b088.chunk.js.map",
     "static/css/3.ed673b97.chunk.css": "/Portofolio/static/css/3.ed673b97.chunk.css",
-    "static/js/3.99a612ea.chunk.js": "/Portofolio/static/js/3.99a612ea.chunk.js",
-    "static/js/3.99a612ea.chunk.js.map": "/Portofolio/static/js/3.99a612ea.chunk.js.map",
+    "static/js/3.b3a5121e.chunk.js": "/Portofolio/static/js/3.b3a5121e.chunk.js",
+    "static/js/3.b3a5121e.chunk.js.map": "/Portofolio/static/js/3.b3a5121e.chunk.js.map",
     "static/css/4.0110b6a7.chunk.css": "/Portofolio/static/css/4.0110b6a7.chunk.css",
     "static/js/4.f0e0e6f2.chunk.js": "/Portofolio/static/js/4.f0e0e6f2.chunk.js",
     "static/js/4.f0e0e6f2.chunk.js.map": "/Portofolio/static/js/4.f0e0e6f2.chunk.js.map",
     "index.html": "/Portofolio/index.html",
-    "precache-manifest.5cd2b347b1314ac9292121b0582db832.js": "/Portofolio/precache-manifest.5cd2b347b1314ac9292121b0582db832.js",
+    "precache-manifest.5efa517587edce0e769f6684d4740c04.js": "/Portofolio/precache-manifest.5efa517587edce0e769f6684d4740c04.js",
     "service-worker.js": "/Portofolio/service-worker.js",
     "static/css/3.ed673b97.chunk.css.map": "/Portofolio/static/css/3.ed673b97.chunk.css.map",
     "static/css/4.0110b6a7.chunk.css.map": "/Portofolio/static/css/4.0110b6a7.chunk.css.map",
     "static/css/main.c65afbf5.chunk.css.map": "/Portofolio/static/css/main.c65afbf5.chunk.css.map",
-    "static/js/2.6f2ae8cd.chunk.js.LICENSE.txt": "/Portofolio/static/js/2.6f2ae8cd.chunk.js.LICENSE.txt",
+    "static/js/2.0156b088.chunk.js.LICENSE.txt": "/Portofolio/static/js/2.0156b088.chunk.js.LICENSE.txt",
     "static/media/AWS-Logo.jpg": "/Portofolio/static/media/AWS-Logo.f2a46027.jpg",
     "static/media/index.css": "/Portofolio/static/media/Montserrat-Regular.847627bf.ttf",
     "static/media/BRTHRS-logo.png": "/Portofolio/static/media/BRTHRS-logo.836a943b.png",
@@ -36,9 +36,9 @@
     "static/media/TalkCard.scss": "/Portofolio/static/media/talksCardBack.13780cdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.be150ca8.js",
-    "static/js/2.6f2ae8cd.chunk.js",
+    "static/js/runtime-main.fbca5773.js",
+    "static/js/2.0156b088.chunk.js",
     "static/css/main.c65afbf5.chunk.css",
-    "static/js/main.89f202e0.chunk.js"
+    "static/js/main.f00c9ccc.chunk.js"
   ]
 }
