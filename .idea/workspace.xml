@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523ebe91-325f-4e33-8e29-87449ee1f0a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Quintor-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Unity_Technologies_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/dha-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
