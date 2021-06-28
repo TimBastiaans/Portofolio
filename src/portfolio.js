@@ -301,7 +301,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Unity_Technologies_logo"),
+      image: require("./assets/images/Unity_Technologies_logo.png"),
       projectName: "Bubble Trouble in Unity",
       projectDesc: "Two man project still in progress on the replication of the old Bubble Trouble Game",
       footerLink: [

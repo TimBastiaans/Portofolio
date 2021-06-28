@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523ebe91-325f-4e33-8e29-87449ee1f0a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Unity-logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/workExperience/WorkExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/workExperience/WorkExperience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Github projects/developerFolio" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Tim_B\OneDrive\Bureaublad\Projecten\Portofolio\node_modules\prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -43,7 +49,7 @@
       <workItem from="1622524491959" duration="600000" />
       <workItem from="1622636317947" duration="5000" />
       <workItem from="1624521931865" duration="617000" />
-      <workItem from="1624870146389" duration="726000" />
+      <workItem from="1624870146389" duration="3743000" />
     </task>
     <servers />
   </component>

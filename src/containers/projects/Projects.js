@@ -25,8 +25,10 @@ export default function Projects() {
         })
         .then(response => {
           setrepoFunction(response.data.user.pinnedItems.edges);
+
         })
         .catch(function (error) {
+          console.log("Doesnt work");
           console.log(error);
           setrepoFunction("Error");
           console.log(
