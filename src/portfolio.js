@@ -12,9 +12,11 @@ const illustration = {
 
 const greeting = {
   username: "Tim Bastiaans",
-  title: "Hi all, I'm Tim Bastiaans",
+  title: "Hi all, \n i'm Tim Bastiaans",
   subTitle: emoji(
-    "A young passionate junior Full Stack Software Developer 🚀 having an experience of building Web and Mobile Back-End Web Architecture applications with JavaScript / Typescript / Java /and some other cool libraries and frameworks."
+    "A young passionate Junior Full Stack Software Developer 🚀. " +
+    "Experienced in building web- and mobile back-end architecture applications with JavaScript /" +
+    " Typescript / Java and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1wZchZ_93igJR_xC_hjd6kYwh3sKHk841/view?usp=sharing",
@@ -36,16 +38,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "TRYING TO BE A CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
   skills: [
     emoji(
-        "⚡ Develop server-side back ends / User Interfaces for your web and mobile applications"
+        "⚡ Develop server-side back ends / user interfaces for your web- and mobile applications"
     ),
-    emoji("⚡ Understanding of front-end web technologies with the managing side of a hosting environment"),
+    emoji("⚡ Knowledge of front-end web technologies with the managing side of a hosting environment"),
     emoji(
-      "⚡ including designing database administration as well as scaling applications to handle load changes"),
+      "⚡ Design database administration informatiesysteem"),
     emoji(
-        "⚡ Integration of third party services such as Firebase / and getting to know AWS"
+      "⚡ Scaling applications to handle load changes"),
+    emoji(
+        "⚡ Integration of third party services such as Firebase"
     )
   ],
 
@@ -129,15 +133,14 @@ const educationInfo = {
       duration: "September 2017 - April 2021",
       desc: "propaedeutic certificate obtained in the first year",
       descBullets: [
-        "UML & Scrum",
-        "PHP, HTML & CSS",
-        "Java / Kotlin",
-        "Javascript / Typescript",
-        "NoSQL & T-SQL",
+        "Using Scrum in groupsize 4 - 25",
+        "Web: PHP, HTML, CSS, Javascript, Typescript",
+        "Back-end: Java / Kotlin",
+        "Database: NoSQL & T-SQL, MSSQL, XML",
         "Firebase, Ionic, Swift, Vue & Angular",
         "Microservices, SOLID principles, GRASP & Gang of Four (GoF) design patterns",
         "Automated testing, ISO 42010/25010, Twin Peaks-model, 4+1 architectural view model",
-        "Clean code with the refactoring guide by Martin Fowler."
+        "Clean code with the refactoring guide by Martin Fowler"
       ]
     },
     {
@@ -157,20 +160,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      Stack: "Front-end & Design", //Insert stack or technology you have experience in
+      progressPercentage: "55%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Back-end",
+      progressPercentage: "75%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "65%"
     },
     {
-      Stack: "Social",
-      progressPercentage: "75%"
+      Stack: "Collaborative skills",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Teamwork",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Troubleshooting",
+      progressPercentage: "70%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -201,10 +212,13 @@ const workExperiences = {
       company: "Brthrs",
       companylogo: require("./assets/images/BRTHRS-logo.png"),
       date: "February 2020 – July 2020",
-      desc: "Working within a development team and helping with\n" +
+      desc: "Working within a development team\n" +
         "developing, testing and deploying various applications\n" +
         "like the Silent Disco web platform with integrated\n" +
-        "streaming services."
+        "streaming services.",
+      descBullets: [
+
+      ],
     },
     {
       role: "IT helpdesk",
@@ -229,7 +243,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -248,7 +262,46 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/bubble-trouble-logo.jpg"),
+      image: require("./assets/images/Quintor-logo.png"),
+      projectName: "Voting Application on the blockchain",
+    projectDesc: "five man scrum project in collaboration with Quintor",
+      footerLink: [
+        {
+          name: "Git-project not available for public",
+          url: ""
+        },
+        {
+          name: "Block-chain info",
+          url: "https://www.consumentenbond.nl/veilig-internetten/blockchain"
+        },
+        {
+          name: "Ethereum Java programming",
+          url: "https://ethereum.org/en/developers/docs/programming-languages/java/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/dha-logo.png"),
+      projectName: "translation application",
+      projectDesc: "Two man project to develop a ionic wep application \n " +
+        "SOS Light signal with UI accessibility settings",
+      footerLink: [
+        {
+          name: "Git-project",
+          url: "https://github.com/TimBastiaans/dha-eindopdracht-2019-tim"
+        },
+        {
+          name: "HTTP/API integration",
+          url: "https://funtranslations.com/api/"
+        },
+        {
+          name: "Ionic plugins: [Microphone] & [Cameraflash] & [Local storage]",
+          url: "https://ionicframework.com/docs/native/community"
+        },
+      ]
+    },
+    {
+      image: require("./assets/images/Unity_Technologies_logo"),
       projectName: "Bubble Trouble in Unity",
       projectDesc: "Two man project still in progress on the replication of the old Bubble Trouble Game",
       footerLink: [
@@ -270,9 +323,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Certifications 🏆 "),
 
   achievementsCards: [
     {
@@ -300,38 +351,34 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-const blogSection = {
-  title: "Playground",
-  subtitle:
-    "With Love for Developing cool stuff, I love to share and show some of the coolest things I found on the web.",
-
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// // Blogs Section
+//
+// const blogSection = {
+//   title: "Playground",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to share and show some of the coolest things I found on the web.",
+//
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Talks Sections
 
 const talkSection = {
   title: "PRESENTATIONS",
-  subtitle: emoji(
-    "I LIKE TO SHARE MY LIMITED KNOWLEDGE"
-  ),
-
   talks: [
     {
       title: "Graduation internship Presentation For VTS",
@@ -346,8 +393,8 @@ const talkSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+648543197",
+    "Cool job offer or nice project or just want to say hi? My Inbox is open for all.",
+  number: "+31 648543197",
   email_address: "Tim_Bastiaans@hotmail.nl"
 };
 
@@ -362,7 +409,6 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
   talkSection,
   contactInfo,
 };
