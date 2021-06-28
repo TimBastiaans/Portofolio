@@ -12,9 +12,9 @@ const illustration = {
 
 const greeting = {
   username: "Tim Bastiaans",
-  title: "Hi all I'm Tim Bastiaans",
+  title: "Hi all, I'm Tim Bastiaans",
   subTitle: emoji(
-    "A young passionate junior Full Stack Software Developer 🚀 having an experience of building Web and Mobile Back-End Web Architecture applications with JavaScript / Typescript/ Java / and some other cool libraries and frameworks."
+    "A young passionate junior Full Stack Software Developer 🚀 having an experience of building Web and Mobile Back-End Web Architecture applications with JavaScript / Typescript / Java /and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1wZchZ_93igJR_xC_hjd6kYwh3sKHk841/view?usp=sharing",
@@ -39,9 +39,11 @@ const skillsSection = {
   subTitle: "TRYING TO BE A CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications or backends"
+        "⚡ Develop server-side back ends / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Understanding of front-end web technologies with the managing side of a hosting environment"),
+    emoji(
+      "⚡ including designing database administration as well as scaling applications to handle load changes"),
     emoji(
         "⚡ Integration of third party services such as Firebase / and getting to know AWS"
     )
@@ -246,7 +248,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/bubble-trouble -logo.jpg"),
+      image: require("./assets/images/bubble-trouble-logo.jpg"),
       projectName: "Bubble Trouble in Unity",
       projectDesc: "Two man project still in progress on the replication of the old Bubble Trouble Game",
       footerLink: [
