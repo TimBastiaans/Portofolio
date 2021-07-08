@@ -1,4 +1,4 @@
-@import '../../_globalColor';
+@import "../../_globalColor";
 
 .footer-text {
   text-align: center;
@@ -6,6 +6,7 @@
 }
 
 .dark-mode {
+  background-color: #171c28 !important;
   color: $textColorDark !important;
 }
 

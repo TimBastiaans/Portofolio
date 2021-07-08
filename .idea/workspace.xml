@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523ebe91-325f-4e33-8e29-87449ee1f0a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Unity-logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/workExperience/WorkExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/workExperience/WorkExperience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Quintor-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Quintor-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/dha-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/dha-logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,12 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Tim_B\OneDrive\Bureaublad\Projecten\Portofolio\node_modules\prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tim_B\OneDrive\Bureaublad\Projecten\Portofolio" />
+      <recent name="C:\Users\Tim_B\OneDrive\Bureaublad\Projecten\Portofolio\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +52,7 @@
       <workItem from="1622636317947" duration="5000" />
       <workItem from="1624521931865" duration="617000" />
       <workItem from="1624870146389" duration="3743000" />
+      <workItem from="1624955698236" duration="1215000" />
     </task>
     <servers />
   </component>

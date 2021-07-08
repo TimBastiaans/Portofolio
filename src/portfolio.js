@@ -45,11 +45,11 @@ const skillsSection = {
     ),
     emoji("⚡ Knowledge of front-end web technologies with the managing side of a hosting environment"),
     emoji(
-      "⚡ Design database administration informatiesysteem"),
+      "⚡ Design database structures for huge information systems"),
     emoji(
-      "⚡ Scaling applications to handle load changes"),
+      "⚡ Managing APIs for scaling applications to handle load changes which work across devices"),
     emoji(
-        "⚡ Integration of third party services such as Firebase"
+        "⚡ Integration of third party services or frameworks such as Firebase, Ionic or Angular"
     )
   ],
 
@@ -197,7 +197,7 @@ const workExperiences = {
       company: "VTS",
       companylogo: require("./assets/images/VTS-logo.png"),
       date: "October 2020 – April 2021",
-      desc: "Microsoft dynamics 365 business central development in Microsoft AL",
+      desc: "",
       descBullets: [
         "AI Custom Vision quality check for transport shipping documents.",
         "Automated testing for Dynamics 365 Business Central projects.",
@@ -205,6 +205,7 @@ const workExperiences = {
         "Overview page with a dynamic and insightful set of tools\n" +
         "to determine the in- and outgoing temperature of the\n" +
         "controlled cargo trucks.",
+        "All fixated and deployed in the Microsoft Dynamics 365 business central environment"
       ]
     },
     {
@@ -212,22 +213,24 @@ const workExperiences = {
       company: "Brthrs",
       companylogo: require("./assets/images/BRTHRS-logo.png"),
       date: "February 2020 – July 2020",
-      desc: "Working within a development team\n" +
-        "developing, testing and deploying various applications\n" +
-        "like the Silent Disco web platform with integrated\n" +
-        "streaming services.",
+      desc: "Working within a development team",
       descBullets: [
-
+        "Developing in a 10 man SCRUM team" ,
+        "Testing old projects with the other intern ",
+        "Deploying various applications like the Silent Disco web platform with integrated\n" +
+        "streaming services",
       ],
     },
     {
-      role: "IT helpdesk",
+      role: "IT helpdesk employee",
       company: "Hyster-Yale",
       companylogo: require("./assets/images/HYSTER-YALE-logo.png"),
       date: "February 2016 – December 2018",
-      desc: "Technical troubleshooting, system upgrades & optimization, security, backup & recovery solutions:",
-      descBullets: ["First and second line helpdesk support in a > 6,800 fte\n" +
-      "worldwide company." ,"Virus detection, removal & prevention."],
+      desc: "First and second line helpdesk support in a > 6,800 fte worldwide company",
+      descBullets: ["Technical troubleshooting",
+        "System upgrades & optimization",
+        "Security, backup & recovery solutions",
+        "Virus detection, removal & prevention."],
     }
   ]
 };
@@ -301,7 +304,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Unity_Technologies_logo.png"),
+      image: require("./assets/images/Unity-logo.jpg"),
       projectName: "Bubble Trouble in Unity",
       projectDesc: "Two man project still in progress on the replication of the old Bubble Trouble Game",
       footerLink: [

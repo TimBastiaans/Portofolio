@@ -2,6 +2,8 @@ import React, {useState, useEffect, lazy, Suspense} from "react";
 import {openSource} from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
+import Bottom from "../bottombutton/Bottom";
+
 
 const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
@@ -46,6 +48,7 @@ export default function Profile() {
     return (
       <Suspense fallback={renderLoader()}>
         <GithubProfileCard prof={prof} key={prof.id} />
+        <Bottom prof={prof} />
       </Suspense>
     );
   } else {
